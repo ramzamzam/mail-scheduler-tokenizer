@@ -1,5 +1,8 @@
 Tokenizer node
 
+Run with `node index [PORT]` 
+PORT(number) is optional.
+
 Counts number of tokens in messages and stores those into DB.
 
 Sample configuration file: 
