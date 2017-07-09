@@ -5,6 +5,12 @@ const connection = pg(db_config);
 
 const cs = new pg.helpers.ColumnSet(['value', 'count'], {table: 'tokens'});
 
+/**
+ * Saves tokens to database
+ *
+ * @param values
+ * @returns {Promise}
+ */
 function saveTokens(values) {
     return new Promise((resolve, reject) => {
         if (values.length) {
