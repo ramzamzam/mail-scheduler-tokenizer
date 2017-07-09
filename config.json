@@ -1,0 +1,11 @@
+{
+  "PORT": 3004,
+  "MASTER_URI": "http://localhost:3002",
+  "db": {
+    "host": "127.0.0.1",
+    "user": "postgres",
+    "port": "5432",
+    "database": "messages",
+    "password": "1111"
+  }
+}
